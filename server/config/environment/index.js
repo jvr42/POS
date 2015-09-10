@@ -19,12 +19,21 @@ var all = {
   root: path.normalize(__dirname + '/../../..'),
 
   // Server port
-  port: process.env.PORT || 9000,
+  //port: process.env.PORT || 8080,
   //port: 80,
 
   // Server IP
-  ip: process.env.IP || '0.0.0.0',
+  //ip: process.env.IP || '0.0.0.0',
   //ip: '192.168.0.103',
+
+  ip:       process.env.OPENSHIFT_NODEJS_IP ||
+            process.env.IP ||
+            undefined,
+
+  // Server port
+  port:     process.env.OPENSHIFT_NODEJS_PORT ||
+            process.env.PORT ||
+            8000,
 
   // Should we populate the DB with sample data?
   seedDB: false,
