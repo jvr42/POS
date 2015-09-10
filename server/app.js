@@ -32,9 +32,13 @@ require('./config/socketio')(socketio);
 require('./config/express')(app);
 require('./routes')(app);
 
+
+app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3002);
+app.set('ip', process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1");
+
 // Start server
 function startServer() {
-  server.listen(process.env.OPENSHIFT_NODEJS_IP, process.env.OPENSHIFT_NODEJS_PORT, function() {
+  server.listen(app.get('port') ,app.get('ip'), function() {
     console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
   });
 }
