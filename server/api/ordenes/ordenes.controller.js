@@ -61,7 +61,7 @@ function removeEntity(res) {
 
 // Gets a list of Ordeness
 exports.index = function(req, res) {
-  Ordenes.findAsync()
+  Ordenes.findAsync({status: "abierta"})
     .then(responseWithResult(res))
     .catch(handleError(res));
 };
@@ -69,6 +69,14 @@ exports.index = function(req, res) {
 // Gets a single Ordenes from the DB
 exports.show = function(req, res) {
   Ordenes.findByIdAsync(req.params.id)
+    .then(handleEntityNotFound(res))
+    .then(responseWithResult(res))
+    .catch(handleError(res));
+};
+
+// Gets a single Ordenes from the DB of a specific user
+exports.user = function(req, res) {
+  Ordenes.findAsync({'usuario.name' : req.params.user})
     .then(handleEntityNotFound(res))
     .then(responseWithResult(res))
     .catch(handleError(res));
