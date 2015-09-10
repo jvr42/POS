@@ -38,11 +38,11 @@ module.exports = function(socketio) {
     // Call onDisconnect.
     socket.on('disconnect', function() {
       onDisconnect(socket);
-      socket.log('DISCONNECTED');
+      //socket.log('DISCONNECTED');
     });
 
     // Call onConnect.
     onConnect(socket);
-    socket.log('CONNECTED');
+     //socket.log('CONNECTED');
   });
 }
