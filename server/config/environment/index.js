@@ -26,14 +26,10 @@ var all = {
   //ip: process.env.IP || '0.0.0.0',
   //ip: '192.168.0.103',
 
-  ip:       process.env.OPENSHIFT_NODEJS_IP ||
-            process.env.IP ||
-            undefined,
+  ip:       process.env.OPENSHIFT_NODEJS_IP,
 
   // Server port
-  port:     process.env.OPENSHIFT_NODEJS_PORT ||
-            process.env.PORT ||
-            8000,
+  port:     process.env.OPENSHIFT_NODEJS_PORT ,
 
   // Should we populate the DB with sample data?
   seedDB: false,
