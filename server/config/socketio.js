@@ -58,6 +58,6 @@ module.exports = function(socketio) {
 
     // Call onConnect.
     onConnect(socket);
-    socket.log('CONNECTED');*/
-  });
+    socket.log('CONNECTED');
+  });*/
 };
