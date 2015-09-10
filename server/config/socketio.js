@@ -13,9 +13,9 @@ function onDisconnect(socket) {
 // When the user connects.. perform this
 function onConnect(socket) {
   // When the client emits 'info', this listens and executes
-  socket.on('info', function(data) {
+/*  socket.on('info', function(data) {
     socket.log(JSON.stringify(data, null, 2));
-  });
+  });*/
 
   // Insert sockets below
   require('../api/ordenes/ordenes.socket').register(socket);
