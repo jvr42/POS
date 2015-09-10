@@ -45,4 +45,4 @@ module.exports = function(socketio) {
     onConnect(socket);
     socket.log('CONNECTED');
   });
-});
+}
