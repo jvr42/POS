@@ -41,14 +41,14 @@ module.exports = function(socketio) {
   // }));
 
   socketio.on('connection', function(socket) {
-/*    socket.address = socket.request.connection.remoteAddress +
+    socket.address = socket.request.connection.remoteAddress +
       ':' + socket.request.connection.remotePort;
 
     socket.connectedAt = new Date();
 
-    socket.log = function(...data) {
+/*    socket.log = function(...data) {
       console.log(`SocketIO ${socket.nsp.name} [${socket.address}]`, ...data);
-    };
+    };*/
 
     // Call onDisconnect.
     socket.on('disconnect', function() {
@@ -59,6 +59,6 @@ module.exports = function(socketio) {
     // Call onConnect.
     onConnect(socket);
     socket.log('CONNECTED');
-  });*/
+  });
 });
 }
