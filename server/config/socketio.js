@@ -41,7 +41,7 @@ module.exports = function(socketio) {
   // }));
 
   socketio.on('connection', function(socket) {
-    socket.address = socket.request.connection.remoteAddress +
+/*    socket.address = socket.request.connection.remoteAddress +
       ':' + socket.request.connection.remotePort;
 
     socket.connectedAt = new Date();
@@ -58,6 +58,6 @@ module.exports = function(socketio) {
 
     // Call onConnect.
     onConnect(socket);
-    socket.log('CONNECTED');
+    socket.log('CONNECTED');*/
   });
 };
