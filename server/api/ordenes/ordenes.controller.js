@@ -39,13 +39,13 @@ function handleEntityNotFound(res) {
 }
 
 function saveUpdates(updates) {
-  return function(entity) {
-    var updated = _.merge(entity, updates);
+  return function(entity){
+    var updated = _.extend(entity, updates);
     return updated.saveAsync()
       .spread(function(updated) {
         return updated;
       });
-  };
+  }
 }
 
 function removeEntity(res) {
@@ -74,9 +74,17 @@ exports.show = function(req, res) {
     .catch(handleError(res));
 };
 
-// Gets a single Ordenes from the DB of a specific user
+// Gets productos from the DB of a specific orden
 exports.user = function(req, res) {
   Ordenes.findAsync({'usuario.name' : req.params.user})
+    .then(handleEntityNotFound(res))
+    .then(responseWithResult(res))
+    .catch(handleError(res));
+};
+
+// Gets producto from the DB of a specific orden
+exports.producto = function(req, res) {
+  Ordenes.findAsync({'productos._id':req.params.id},{"productos": 1})
     .then(handleEntityNotFound(res))
     .then(responseWithResult(res))
     .catch(handleError(res));
@@ -94,12 +102,14 @@ exports.update = function(req, res) {
   if (req.body._id) {
     delete req.body._id;
   }
+
   Ordenes.findByIdAsync(req.params.id)
     .then(handleEntityNotFound(res))
     .then(saveUpdates(req.body))
     .then(responseWithResult(res))
     .catch(handleError(res));
 };
+
 
 // Deletes a Ordenes from the DB
 exports.destroy = function(req, res) {
