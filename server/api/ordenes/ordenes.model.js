@@ -14,7 +14,15 @@ var Producto = new Schema({
   servido:  {
     type: Boolean,
     default: false
-  }  
+  },
+  pagado :{
+  	type: Boolean,
+  	default: false
+  },
+  pagados : {
+    type: Number,
+    default: 0
+  } 
 });
 
 var OrdenesSchema = new Schema({
