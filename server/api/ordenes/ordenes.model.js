@@ -41,6 +41,7 @@ var OrdenesSchema = new Schema({
 	numeroBoleta: Number,
 	fechaCierre: Number,
 	descuento: Number,
+  tipoPago: String
 });
 
 module.exports = mongoose.model('Ordenes', OrdenesSchema);

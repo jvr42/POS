@@ -6,6 +6,7 @@ var controller = require('./ordenes.controller');
 var router = express.Router();
 
 router.get('/', controller.index);
+router.get('/all', controller.indexAll);
 router.get('/:id', controller.show);
 router.get('/user/:user', controller.user);
 router.post('/', controller.create);

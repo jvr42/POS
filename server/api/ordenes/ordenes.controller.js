@@ -66,6 +66,14 @@ exports.index = function(req, res) {
     .catch(handleError(res));
 };
 
+// Gets a list of Ordeness
+exports.indexAll = function(req, res) {
+  Ordenes.findAsync()
+    .then(responseWithResult(res))
+    .catch(handleError(res));
+};
+
+
 // Gets a single Ordenes from the DB
 exports.show = function(req, res) {
   Ordenes.findByIdAsync(req.params.id)
@@ -76,7 +84,7 @@ exports.show = function(req, res) {
 
 // Gets productos from the DB of a specific orden
 exports.user = function(req, res) {
-  Ordenes.findAsync({'usuario.name' : req.params.user})
+  Ordenes.findAsync({'usuario.name' : req.params.user, status: 'abierta'})
     .then(handleEntityNotFound(res))
     .then(responseWithResult(res))
     .catch(handleError(res));
