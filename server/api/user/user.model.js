@@ -7,7 +7,7 @@ var crypto = require('crypto');
 
 var UserSchema = new Schema({
   name: String,
-  rut: Number,
+  rut: String,
   role: {
     type: String,
     default: 'admin'
