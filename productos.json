@@ -1,0 +1,171 @@
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d06"},"cantidad":1,"name":"RUSO NEGRO","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d07"},"cantidad":1,"name":"RUSO BLANCO","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d08"},"cantidad":1,"name":"RUSO ROSADO","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d09"},"cantidad":1,"name":"RUSO VERDE","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d0a"},"cantidad":1,"name":"LAGUNA AZUL","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d0b"},"cantidad":1,"name":"GODMOTHER","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d0c"},"cantidad":1,"name":"VODKA NARANJA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d0d"},"cantidad":1,"name":"KAMIKASE","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d0e"},"cantidad":1,"name":"VODKA COLLINS","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d0f"},"cantidad":1,"name":"CAIPIROSKA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d10"},"cantidad":1,"name":"SEX IN THE BEACH","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d11"},"cantidad":1,"name":"VODKA SUNRISE","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d12"},"cantidad":1,"name":"METROPOLITAN","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d13"},"cantidad":1,"name":"ALEXANDER","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d14"},"cantidad":1,"name":"LUNA AZUL","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d15"},"cantidad":1,"name":"BRONX","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d16"},"cantidad":1,"name":"GIN DEISY","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d17"},"cantidad":1,"name":"BELMONT","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d18"},"cantidad":1,"name":"GIN LADY","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d19"},"cantidad":1,"name":"RED LION","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d1a"},"cantidad":1,"name":"TOM COLLINS","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d1b"},"cantidad":1,"name":"GIN CON GIN","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d1c"},"cantidad":1,"name":"PADRINO","precio":3700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d1d"},"cantidad":1,"name":"WHISKY SOUR","precio":3700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d1e"},"cantidad":1,"name":"JHON COLLINS","precio":3700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d1f"},"cantidad":1,"name":"CLAVO OXIDADO","precio":5000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d20"},"cantidad":1,"name":"MANHATAN","precio":4200,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d21"},"cantidad":1,"name":"OLD FASHIONED","precio":3700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d22"},"cantidad":1,"name":"MARTINI DRY","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d23"},"cantidad":1,"name":"MARTINI BLUE","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d24"},"cantidad":1,"name":"MARTINI","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d25"},"cantidad":1,"name":"MARTINI FRAMBUESA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d26"},"cantidad":1,"name":"MARTINI MANGO","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d27"},"cantidad":1,"name":"CAIPIRISIMA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d28"},"cantidad":1,"name":"MOJITO","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d29"},"cantidad":1,"name":"MOJITO SABORES","precio":3600,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d2a"},"cantidad":1,"name":"DAIQUIRI","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d2b"},"cantidad":1,"name":"BLUE HAWAI","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d2c"},"cantidad":1,"name":"PIÑA COLADA","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d2d"},"cantidad":1,"name":"STRAWBERRY COLADA","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d2e"},"cantidad":1,"name":"TEQUILA BLUE","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d2f"},"cantidad":1,"name":"MANGO COLADO","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d30"},"cantidad":1,"name":"TEQUILA MARGARITA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d31"},"cantidad":1,"name":"LUPITA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d32"},"cantidad":1,"name":"TEQUILA SUNRISE","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d33"},"cantidad":1,"name":"CUCARACHA","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d34"},"cantidad":1,"name":"GOLPIADITO","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d35"},"cantidad":1,"name":"ROSITA","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d36"},"cantidad":1,"name":"SHOT DE TEQUILA","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d37"},"cantidad":1,"name":"PISCO SOUR","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d38"},"cantidad":1,"name":"AMARETTO SOUR","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d39"},"cantidad":1,"name":"GRASSHOPPER","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d3a"},"cantidad":1,"name":"ANDES AMABLES","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d3b"},"cantidad":1,"name":"FRAMBUESA SOUR","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d3c"},"cantidad":1,"name":"AZUCAR PISTON","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d3d"},"cantidad":1,"name":"CAIPIRIÑA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d3e"},"cantidad":1,"name":"VAINA","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d3f"},"cantidad":1,"name":"PRIMAVERA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d41"},"cantidad":1,"name":"BAUZA 35°","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d42"},"cantidad":1,"name":"ALTO DEL CARMEN 35°","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d43"},"cantidad":1,"name":"MISTRAL 35°","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d44"},"cantidad":1,"name":"MISTRAL NOBEL 40°","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d46"},"cantidad":1,"name":"HORCON QUEMADO 35°","precio":3200,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d47"},"cantidad":1,"name":"FUNDO LOS NICHOS 35°","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d48"},"cantidad":1,"name":"FUNDO LOS NICHOS 40°","precio":3200,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d49"},"cantidad":1,"name":"MADERO","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d4a"},"cantidad":1,"name":"BACARDI ORO O BLANCO","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d4b"},"cantidad":1,"name":"BACARDI, LIMON, MANZANA, COCO RAZZ.","precio":3200,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d4c"},"cantidad":1,"name":"BARCELO AÑEJO","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d4d"},"cantidad":1,"name":"HAVANA","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d4e"},"cantidad":1,"name":"HAVANA AÑEJO RESERVA","precio":3300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d4f"},"cantidad":1,"name":"HAVANA 7 AÑOS","precio":3500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d50"},"cantidad":1,"name":"PAMPERO","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d51"},"cantidad":1,"name":"ABUELO","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d52"},"cantidad":1,"name":"ABUELO AÑEJO 7 AÑOS","precio":3300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d53"},"cantidad":1,"name":"STOLICHNAYA","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d54"},"cantidad":1,"name":"ABSOLUT","precio":3800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d55"},"cantidad":1,"name":"ABSOLUT SABORES","precio":4000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d56"},"cantidad":1,"name":"100 PIPERS","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d57"},"cantidad":1,"name":"JOHNNY WALKER RED","precio":4000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d58"},"cantidad":1,"name":"JOHNNY WALKER BLACK","precio":6500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d59"},"cantidad":1,"name":"BALLANTINE'S","precio":4000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d5a"},"cantidad":1,"name":"JACK DANIEL'S RED","precio":4000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d5b"},"cantidad":1,"name":"JACK DANIEL'S HONEY","precio":5000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d5d"},"cantidad":1,"name":"CHIVAS REGAL 12 años","precio":6500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d5f"},"cantidad":1,"name":"BAILEYS","precio":4000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d60"},"cantidad":1,"name":"DRAMBUIE","precio":4000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d61"},"cantidad":1,"name":"EMPANADAS DE MARISCO","precio":1000,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d62"},"cantidad":1,"name":"EMPANADAS DE CAMARON-QUESO","precio":1000,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d63"},"cantidad":1,"name":"EMPANADA MACHA-QUESO","precio":1000,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d64"},"cantidad":1,"name":"EMPANADA CHAMPIÑON-CHOCLO-QUESO","precio":800,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d65"},"cantidad":1,"name":"EMPANADA QUESO","precio":500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d66"},"cantidad":1,"name":"EMPANADA POLLO QUESO","precio":1000,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d67"},"cantidad":1,"name":"PAPA FRITA CHICA","precio":1500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d68"},"cantidad":1,"name":"PAPA FRITA GRANDE","precio":2500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d69"},"cantidad":1,"name":"ESCUDO 1 LT","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d6a"},"cantidad":1,"name":"CRISTAL 1 LT","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d6b"},"cantidad":1,"name":"AUSTRAL 1 LT","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d6c"},"cantidad":1,"name":"HEINEKEN 1 LT","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d6d"},"cantidad":1,"name":"ROYAL 1 LT","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d6e"},"cantidad":1,"name":"CORONA 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d6f"},"cantidad":1,"name":"CORONA 710 CC","precio":3000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d70"},"cantidad":1,"name":"ROYAL 355CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d71"},"cantidad":1,"name":"CRISTAL CERO 330CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d72"},"cantidad":1,"name":"AUSTRAL LAGER 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d73"},"cantidad":1,"name":"AUSTRAL CALAFATE 330CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d74"},"cantidad":1,"name":"AUSTRAL PATAGONA 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d75"},"cantidad":1,"name":"GRAN TOROBAYO 500CC","precio":3300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d76"},"cantidad":1,"name":"TOROBAYO 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d77"},"cantidad":1,"name":"KUNSTMANN MIEL 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d78"},"cantidad":1,"name":"KUNSTMANN S/ALCOHOL 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d79"},"cantidad":1,"name":"KUNSTMANN BOCK 330CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d7a"},"cantidad":1,"name":"HEINEKEN 330CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d7b"},"cantidad":1,"name":"STELLA ARTOIS 330CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d7c"},"cantidad":1,"name":"PACEÑA 330CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d7d"},"cantidad":1,"name":"MILLER 330CC","precio":1800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d7e"},"cantidad":1,"name":"MICHELADA ESCUDO Y CRISTAL 500CC","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d7f"},"cantidad":1,"name":"MICHELADA  ESCUDO Y CRISTAL 250CC","precio":1000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d80"},"cantidad":1,"name":"MICHELADA HEINEKEN 330CC","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d81"},"cantidad":1,"name":"MICHELADA MILLER 330CC","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d82"},"cantidad":1,"name":"MICHELADA SOL 330CC","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d83"},"cantidad":1,"name":"MICHELADA ROYAL 355CC","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d84"},"cantidad":1,"name":"MICHELADA CORONA 330CC","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d85"},"cantidad":1,"name":"MICHELADA KUNSTMANN TOROBAYO 330CC","precio":2800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d86"},"cantidad":1,"name":"CORTO DE LIMON","precio":500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d87"},"cantidad":1,"name":"JARRA MICHELADA ESCUDO Y CRISTAL","precio":5000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d88"},"cantidad":1,"name":"MOJITO SIN ALCOHOL","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d89"},"cantidad":1,"name":"MOJITO SABORES SIN ALCOHOL","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d8a"},"cantidad":1,"name":"JUGOS NATURALES","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d8b"},"cantidad":1,"name":"PIÑA COLADA SIN ALCOHOL","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d8c"},"cantidad":1,"name":"STRAWBERRY COLADA SIN ALCOHOL","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d8d"},"cantidad":1,"name":"MANGO COLADO SIN ALCOHOL","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d8e"},"cantidad":1,"name":"PRIMAVERA SIN ALCOHOL","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d8f"},"cantidad":1,"name":"BEBIDAS 350CC","precio":800,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d90"},"cantidad":1,"name":"BEBIDAS 600CC","precio":1000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d91"},"cantidad":1,"name":"SHOP GROSSVATER 340 CC","precio":1000,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d92"},"cantidad":1,"name":"SHOP GROSSVATER 500CC","precio":1500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d94"},"cantidad":1,"name":"JARRO BORGOÑA","precio":4500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d95"},"cantidad":1,"name":"PONCHE TROPICAL","precio":2500,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d96"},"cantidad":1,"name":"BORGOÑA 250CC","precio":1200,"tipo":"bar"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d97"},"cantidad":1,"name":"TABLA FRIA","precio":5000,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d98"},"cantidad":1,"name":"TABLA CARNES 2 PERS","precio":6500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d99"},"cantidad":1,"name":"TABLA CARNES 4 PERS","precio":11500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d9a"},"cantidad":1,"name":"TABLA DEL MAR 2 PERS","precio":7500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d9b"},"cantidad":1,"name":"TABLA DEL MAR 4 PERSONAS","precio":13500,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d9c"},"cantidad":1,"name":"FUENTON KANGURU (4 PERS)","precio":10000,"tipo":"cocina"}
+{"_id":{"$oid":"55e91e1cef33cc8ff3654d9d"},"cantidad":1,"name":"FUENTON MARSUPIAL ","precio":8500,"tipo":"cocina"}
+{"_id":{"$oid":"55ea1b7562031a381ae69274"},"cantidad":1,"name":"AGUA MINERAL","precio":800,"tipo":"bar"}
+{"_id":{"$oid":"55ea1ccb62031a381ae69276"},"cantidad":1,"name":"MICHELADA CRISTAL CERO SIN ALCOHOL 355 cc","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55ea25af22b6c9240c2dbc3a"},"cantidad":1,"name":"CRUSH","precio":1000,"tipo":"bar"}
+{"_id":{"$oid":"55ea29de2bd9913c09728834"},"cantidad":1,"name":"NECTAR INDIVIDUAL","precio":1000,"tipo":"bar"}
+{"_id":{"$oid":"55ea47c166d14eb41b080f96"},"cantidad":1,"name":"EMPANADA CARAPACHO","precio":1000,"tipo":"cocina"}
+{"_id":{"$oid":"55ea522b0b5d065020503129"},"cantidad":1,"name":"BEBIDA 500CC","precio":1000,"tipo":"bar"}
+{"_id":{"$oid":"55ea54fc0b5d06502050312b"},"cantidad":1,"name":"JUGO SELECCION","precio":1100,"tipo":"bar"}
+{"_id":{"$oid":"55eb9e6de1cbfc701b3565c1"},"cantidad":1,"name":"CIGARRILLO LUCKY STRIKE 10 uni","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55eba3d8b10c17a416312271"},"cantidad":1,"name":"PITCHER GROSSVATER ","precio":6000,"tipo":"bar"}
+{"_id":{"$oid":"55eba494b10c17a416312273"},"cantidad":1,"name":"BEBIDA 250CC","precio":600,"tipo":"bar"}
+{"_id":{"$oid":"55ec9f891795d264084705e9"},"cantidad":1,"name":"CAFE Y TE","precio":500,"tipo":"cocina"}
+{"_id":{"$oid":"55f0f205971432a024c003f3"},"cantidad":1,"name":"VODKA WYBOROWA","precio":2700,"tipo":"bar"}
+{"_id":{"$oid":"55f0f3b4b0e43eec0042d369"},"cantidad":1,"name":"CERVEZA VANPUR","precio":1200,"tipo":"bar"}
+{"_id":{"$oid":"55f0f49ab0e43eec0042d36a"},"cantidad":1,"name":"SOL","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55f0f7b5b0e43eec0042d36b"},"cantidad":1,"name":"FUENTON KANGURU ( 2 PERS)","precio":6500,"tipo":"cocina"}
+{"_id":{"$oid":"55f0fa00b0e43eec0042d36d"},"cantidad":1,"name":"BEBIDA ENERGETICA RED BULL","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55f0fb52b0e43eec0042d36e"},"cantidad":1,"name":"VINOS, MISIONES 750 CC","precio":5500,"tipo":"bar"}
+{"_id":{"$oid":"55f0fbd3b0e43eec0042d36f"},"cantidad":1,"name":"ESPUMANTE VALDIVIESO","precio":2900,"tipo":"bar"}
+{"_id":{"$oid":"55f370b96c2b51d824c1bfc2"},"cantidad":1,"name":"CIGARRILLO KENT 4 10 uni","precio":2000,"tipo":"bar"}
+{"_id":{"$oid":"55f4da078b9feda41f567bc7"},"cantidad":1,"name":"PROMO FUENTON 2 PERS + 2 SHOP 500 CC","precio":9000,"tipo":"cocina"}
+{"_id":{"$oid":"55f4da4a8b9feda41f567bc8"},"cantidad":1,"name":"PROMO 6 EMPANADAS + 2 SHOP 500 CC","precio":8000,"tipo":"cocina"}
+{"_id":{"$oid":"55f4eaaaea527ab8142a8b29"},"cantidad":1,"name":"KUNSTMANN LAGER","precio":2300,"tipo":"bar"}
+{"_id":{"$oid":"55f4f2ecdefeb1d4160dffa9"},"cantidad":1,"name":"CRISTRAL 1.2LTS","precio":2100,"tipo":"bar"}
+{"_id":{"$oid":"55f5da0e9bd87b0826f16ee2"},"cantidad":1,"name":"JACCK DANIEL`S  BLACK","precio":6500,"tipo":"bar"}
