@@ -5,7 +5,7 @@
 
 'use strict';
 
-var Thing = require('../api/thing/thing.model');
+//var Thing = require('../api/thing/thing.model');
 var User = require('../api/user/user.model');
 
 Thing.find({}).removeAsync()
@@ -44,14 +44,8 @@ User.find({}).removeAsync()
   .then(function() {
     User.createAsync({
       provider: 'local',
-      name: 'Test User',
-      email: 'test@example.com',
-      password: 'test'
-    }, {
-      provider: 'local',
-      role: 'admin',
       name: 'Admin',
-      email: 'admin@example.com',
+      rut: 'admin',
       password: 'admin'
     })
     .then(function() {
