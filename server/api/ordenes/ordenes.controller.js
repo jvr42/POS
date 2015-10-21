@@ -61,7 +61,8 @@ function removeEntity(res) {
 
 // Gets a list of Ordeness
 exports.index = function(req, res) {
-  Ordenes.findAsync({status: "abierta"})
+  //Ordenes.findAsync({status: "abierta"})
+   Ordenes.find({status: "abierta"}).sort({fechaEditado: 1}).execAsync()
     .then(responseWithResult(res))
     .catch(handleError(res));
 };
