@@ -11,8 +11,34 @@
     <title>Sistema de Ventas v3.0 | Perpikaz</title>
     <meta name="description" content="">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="app/vendor.6bb156f2.css">
-    <link rel="stylesheet" href="app/app.3718319a.css">
+    <!-- build:css(client) app/vendor.css -->
+      <!-- bower:css -->
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+      <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,client}) app/app.css -->
+      <link rel="stylesheet" href="app/app.css">
+      <!-- injector:css -->
+      <link rel="stylesheet" href="app/account/login/login.css">
+      <link rel="stylesheet" href="app/app.css">
+      <link rel="stylesheet" href="app/bar/bar.css">
+      <link rel="stylesheet" href="app/caja/caja.css">
+      <link rel="stylesheet" href="app/cocina/cocina.css">
+      <link rel="stylesheet" href="app/config/config.css">
+      <link rel="stylesheet" href="app/editar/editar.css">
+      <link rel="stylesheet" href="app/main/main.css">
+      <link rel="stylesheet" href="app/ordenes/ordenes.css">
+      <link rel="stylesheet" href="app/productos/productos.css">
+      <link rel="stylesheet" href="app/reportes/reportes.css">
+      <link rel="stylesheet" href="app/usuarios/usuarios.css">
+      <link rel="stylesheet" href="components/alertify/alertify.bootstrap.css">
+      <link rel="stylesheet" href="components/alertify/alertify.core.css">
+      <link rel="stylesheet" href="components/alertify/alertify.default.css">
+      <link rel="stylesheet" href="components/footer/footer.css">
+      <link rel="stylesheet" href="components/modal/modal.css">
+      <link rel="stylesheet" href="components/theme/style.css">
+      <!-- endinjector -->
+    <!-- endbuild -->
   </head>
   <body ng-app="posApp">
     <!--[if lt IE 7]>
@@ -37,7 +63,58 @@
     <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
-    <script src="app/vendor.b574a7b7.js"></script>
-    <script src="app/app.769fc226.js"></script>
+    <!-- build:js({client,node_modules}) app/vendor.js -->
+      <!-- bower:js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/alertify/alertify.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-cookies.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-sanitize.min.js"></script>
+      <script src="bower_components/angular-socket-io/socket.js"></script>
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+      <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+      <!-- endbower -->
+      <script src="socket.io-client/socket.io.js"></script>
+    <!-- endbuild -->
+    <!-- build:js({.tmp,client}) app/app.js -->
+      <script src="app/app.js"></script>
+      <!-- injector:js -->
+      <script src="app/account/account.js"></script>
+      <script src="app/account/login/login.controller.js"></script>
+      <script src="app/bar/bar.controller.js"></script>
+      <script src="app/bar/bar.js"></script>
+      <script src="app/caja/caja.controller.js"></script>
+      <script src="app/caja/caja.js"></script>
+      <script src="app/cocina/cocina.controller.js"></script>
+      <script src="app/cocina/cocina.js"></script>
+      <script src="app/config/config.controller.js"></script>
+      <script src="app/config/config.js"></script>
+      <script src="app/editar/editar.controller.js"></script>
+      <script src="app/editar/editar.js"></script>
+      <script src="app/main/main.controller.js"></script>
+      <script src="app/main/main.js"></script>
+      <script src="app/ordenes/ordenes.controller.js"></script>
+      <script src="app/ordenes/ordenes.js"></script>
+      <script src="app/productos/productos.controller.js"></script>
+      <script src="app/productos/productos.js"></script>
+      <script src="app/reportes/reportes.controller.js"></script>
+      <script src="app/reportes/reportes.js"></script>
+      <script src="app/usuarios/usuarios.controller.js"></script>
+      <script src="app/usuarios/usuarios.js"></script>
+      <script src="components/Orden/Orden.service.js"></script>
+      <script src="components/Producto/Producto.service.js"></script>
+      <script src="components/auth/auth.service.js"></script>
+      <script src="components/auth/user.service.js"></script>
+      <script src="components/counter/counter.service.js"></script>
+      <script src="components/footer/footer.directive.js"></script>
+      <script src="components/modal/modal.service.js"></script>
+      <script src="components/mongoose-error/mongoose-error.directive.js"></script>
+      <script src="components/navbar/navbar.controller.js"></script>
+      <script src="components/navbar/navbar.directive.js"></script>
+      <script src="components/socket/socket.service.js"></script>
+      <!-- endinjector -->
+    <!-- endbuild -->
   </body>
 </html>
