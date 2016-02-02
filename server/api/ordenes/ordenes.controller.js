@@ -59,6 +59,15 @@ function removeEntity(res) {
   };
 }
 
+exports.reportes = function(req, res) {
+    var desde = req.params.desde;
+    var hasta = req.params.hasta;
+
+   Ordenes.find({status: "cerrada", fecha: {$gte: Number(desde), $lte: Number(hasta)}},{'productos.name': 1,'productos.cantidad': 1, 'productos.precio': 1,total: 1, orden_id: 1, _id : 0}).sort({orden_id: -1}).execAsync()
+    .then(responseWithResult(res))
+    .catch(handleError(res));  
+};
+
 // Gets a list of Ordeness
 exports.index = function(req, res) {
   //Ordenes.findAsync({status: "abierta"})
@@ -69,7 +78,16 @@ exports.index = function(req, res) {
 
 // Gets a list of Ordeness
 exports.indexAll = function(req, res) {
-  Ordenes.findAsync()
+
+  var desde = new Date();
+  var hasta = new Date();
+
+  desde = new Date(desde.getFullYear(), desde.getMonth() - 1, 1);
+  desde = Date.parse(desde);
+  hasta = Date.parse(hasta);
+
+  Ordenes.find({status: "cerrada", fecha: {$gte: Number(desde), $lte: Number(hasta)}}/*,{'productos.tipo': 1, 'productos.name': 1,'productos.cantidad': 1, 'productos.precio': 1,total: 1, orden_id: 1, _id : 0}*/).sort({orden_id: -1}).execAsync()
+  //Ordenes.findAsync()
     .then(responseWithResult(res))
     .catch(handleError(res));
 };
