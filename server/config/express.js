@@ -31,8 +31,7 @@ module.exports = function(app) {
   app.use(bodyParser.urlencoded({ extended: false }));
   app.use(bodyParser.json());
   app.use(methodOverride());
-  app.use(cookieParser());
-  app.use(expressSessionPassportCleanup);
+  app.use(cookieParser());  
   app.use(passport.initialize());
 
   // Persist sessions with mongoStore / sequelizeStore
@@ -46,6 +45,8 @@ module.exports = function(app) {
       db: 'pos'
     })
   }));
+
+  app.use(expressSessionPassportCleanup);
 
   /**
    * Lusca - express server security
