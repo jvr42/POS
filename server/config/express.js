@@ -42,7 +42,9 @@ module.exports = function(app) {
     saveUninitialized: false,
     store: new mongoStore({
       mongooseConnection: mongoose.connection,
-      db: 'pos'
+      db: 'pos',
+      autoRemove: 'interval',
+      autoRemoveInterval: 5 // In minutes. Default
     })
   }));
 
