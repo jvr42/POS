@@ -60,7 +60,7 @@ function removeEntity(res) {
 }
 
 exports.insights = function(req, res) {
-   Ordenes.find({status: "cerrada"},{fecha_alt:1, orden_id:1,total:1, _id: 0}).execAsync()
+   Ordenes.find({status: "cerrada"},{fecha:1, orden_id:1,total:1, _id: 0}).execAsync()
     .then(responseWithResult(res))
     .catch(handleError(res));  
 };
