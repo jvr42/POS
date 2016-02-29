@@ -40,6 +40,7 @@ module.exports = function(app) {
   app.use(session({
     secret: config.secrets.session,
     saveUninitialized: false,
+    resave: false,
     store: new mongoStore({
       mongooseConnection: mongoose.connection,
       db: 'pos',
