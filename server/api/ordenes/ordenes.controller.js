@@ -76,22 +76,17 @@ exports.index = function(req, res) {
 // Gets a list of Ordeness
 exports.indexAll = function(req, res) {
 
-  var desde = new Date();
-  var hasta = new Date();
+  var d = new Date();
+  var h = new Date();
 
+  d = new Date(d.getFullYear(), d.getMonth() - 1, 1);
 
-  desde = new Date(desde.getFullYear(), desde.getMonth() - 1, 1);
+  var desde = Date.parse(d);
+  var hasta = Date.parse(h);
 
-  var fechas = [desde, hasta];
-
-  desde = Date.parse(desde);
-  hasta = Date.parse(hasta);
-
-  res.send(fechas);
-
-/*  Ordenes.find({status: "cerrada", fecha: {$gte: Number(desde), $lte: Number(hasta)}},{status:1, fecha:1, fecha_alt: 1, 'productos.tipo': 1, 'productos.name': 1,'productos.cantidad': 1, 'productos.precio': 1,total: 1, orden_id: 1, _id : 0}).sort({orden_id: -1}).execAsync()
+  Ordenes.find({status: "cerrada", fecha: {$gte: Number(desde), $lte: Number(hasta)}},{status:1, fecha:1, fecha_alt: 1, 'productos.tipo': 1, 'productos.name': 1,'productos.cantidad': 1, 'productos.precio': 1,total: 1, orden_id: 1, _id : 0}).sort({orden_id: -1}).execAsync()
     .then(responseWithResult(res))
-    .catch(handleError(res));*/
+    .catch(handleError(res));
 };
 
 
