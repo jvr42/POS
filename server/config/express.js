@@ -38,6 +38,7 @@ module.exports = function(app) {
   // oauth 1.0 strategy, and Lusca depends on sessions
   app.use(session({
     secret: config.secrets.session,
+    resave: true,
     saveUninitialized: false,
     store: new mongoStore({
       mongooseConnection: mongoose.connection,

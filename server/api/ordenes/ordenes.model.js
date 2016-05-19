@@ -42,7 +42,9 @@ var OrdenesSchema = new Schema({
 	fechaCierre: Number,
 	descuento: Number,
   tipoPago: String,
-  fechaEditado: Number
+  fechaEditado: Number,
+  observacion: String,
+  propinaPagada: Number
 });
 
 module.exports = mongoose.model('Ordenes', OrdenesSchema);

@@ -10,7 +10,7 @@ var UserSchema = new Schema({
   rut: String,
   role: {
     type: String,
-    default: 'admin'
+    default: 'administrador'
   },
   password: String,
   provider: String,
