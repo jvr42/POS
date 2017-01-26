@@ -23,7 +23,8 @@ var Producto = new Schema({
   pagados : {
     type: Number,
     default: 0
-  } 
+  },
+  observacion: String 
 });
 
 var OrdenesSchema = new Schema({
@@ -43,6 +44,7 @@ var OrdenesSchema = new Schema({
 	descuento: Number,
   tipoPago: String,
   fechaEditado: Number,
+  observacion_pedido: String,
   observacion: String,
   propinaPagada: Number
 });
