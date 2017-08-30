@@ -59,6 +59,81 @@ function removeEntity(res) {
     };
 }
 
+
+exports.ammountSales = function(req, res) {
+
+    var mapFunction = function(){
+        for(var i = 0; i < this.productos.length; i++){
+            var key = this.productos[i].name;
+            var value = Number(this.productos[i].cantidad);
+            //var value = {cantidad: Number(this.productos[i].cantidad), precio: Number(this.productos[i].precio)};
+            emit(key, value);
+        }
+    }
+
+    var reduceFunction = function(key,totales){
+        return Array.sum(totales);
+    }
+
+    Ordenes.mapReduce({
+        map: mapFunction,
+        reduce: reduceFunction,
+        query : {
+            status: "cerrada",
+            $and: [
+                {
+                    fecha: {
+                        $gte: Number(req.params.desde)
+                    }
+                },
+                {
+                    fecha: {
+                        $lte: Number(req.params.hasta)
+                    }
+                }
+            ]        
+        }, 
+        out : { inline: 1 }
+    }).then(responseWithResult(res));
+};
+
+exports.ventas = function(req, res) {
+
+    var mapFunction = function(){
+        for(var i = 0; i < this.productos.length; i++){
+            var key = this.productos[i].tipo;
+            var value = Number(this.productos[i].cantidad) * Number(this.productos[i].precio);
+            emit(key, value);
+        }
+    }
+
+    var reduceFunction = function(key,totales){
+        return Array.sum(totales);
+    }
+
+    Ordenes.mapReduce({
+        map: mapFunction,
+        reduce: reduceFunction,
+        query : {
+            status: "cerrada",
+            $and: [
+                {
+                    fecha: {
+                        $gte: Number(req.params.desde)
+                    }
+                },
+                {
+                    fecha: {
+                        $lte: Number(req.params.hasta)
+                    }
+                }
+            ]        
+        }, 
+        out : { inline: 1 }
+    }).then(responseWithResult(res));
+};
+
+
 exports.insights = function(req, res) {
     Ordenes.find({ status: "cerrada" }, { fecha_alt: 1, fecha: 1, orden_id: 1, total: 1, _id: 0 }).execAsync()
         .then(responseWithResult(res))
@@ -115,7 +190,17 @@ exports.limited = function(req, res) {
 
 // Gets a single Ordenes from the DB
 exports.show = function(req, res) {
+
     Ordenes.findByIdAsync(req.params.id)
+        .then(handleEntityNotFound(res))
+        .then(responseWithResult(res))
+        .catch(handleError(res));
+};
+
+
+exports.showOne = function(req, res) {
+    console.log(req.params);
+    Ordenes.findAsync({orden_id: req.params.id})
         .then(handleEntityNotFound(res))
         .then(responseWithResult(res))
         .catch(handleError(res));
@@ -139,6 +224,7 @@ exports.producto = function(req, res) {
 
 // Creates a new Ordenes in the DB
 exports.create = function(req, res) {
+
     Ordenes.createAsync(req.body)
         .then(responseWithResult(res, 201))
         .catch(handleError(res));
@@ -146,8 +232,10 @@ exports.create = function(req, res) {
 
 // Updates an existing Ordenes in the DB
 exports.update = function(req, res) {
+
     if (req.body._id) {
         delete req.body._id;
+        delete req.body.__v
     }
 
     Ordenes.findByIdAsync(req.params.id)

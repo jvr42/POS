@@ -115,6 +115,26 @@ exports.show = function(req, res, next) {
     });
 };
 
+/**
+ * Get a single user
+ */
+exports.showByName = function(req, res, next) {
+
+  var userId = req.params.id;
+
+  User.findOneAsync({ name: userId })
+    .then(function(user) {
+      if (!user) {
+        return res.status(404).end();
+      }
+      res.json(user);
+    })
+    .catch(function(err) {
+      return next(err);
+    });
+};
+
+
 // Deletes a Producto from the DB
 exports.destroy = function(req, res) {
   User.findByIdAsync(req.params.id)

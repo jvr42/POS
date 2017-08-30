@@ -38,6 +38,7 @@ var OrdenesSchema = new Schema({
 	orden_id: Number,
 	status: String,
 	usuario: {},
+  ultimoEditor: {},
 	propina: Boolean,
 	numeroBoleta: Number,
 	fechaCierre: Number,
@@ -46,7 +47,11 @@ var OrdenesSchema = new Schema({
   fechaEditado: Number,
   observacion_pedido: String,
   observacion: String,
-  propinaPagada: Number
+  propinaPagada: Number,
+  observaciones: {
+    type:[],
+    default: []
+  }
 });
 
 module.exports = mongoose.model('Ordenes', OrdenesSchema);
