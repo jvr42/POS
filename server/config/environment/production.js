@@ -15,7 +15,8 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri:    process.env.OPENSHIFT_MONGODB_DB_URL ||
+    uri:    process.env.MONGO_URL ||
+            process.env.OPENSHIFT_MONGODB_DB_URL ||
             process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL +
