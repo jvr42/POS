@@ -36,8 +36,16 @@ require('./routes')(app);
 // Start server
 function startServer() {
   server.listen(config.port, config.ip, function() {
+  	console.log('=========================CONFIG OBJECT==================================');
+  	console.log(config);
+  	console.log('========================================================================')
+  	console.log('');
+  	console.log('========================================================================');
+  	console.log('===================SERVER CONFIGURATION=================================')
+  	console.log('========================================================================');
   	console.log('Express Server IP address: ' + config.ip);
     console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+    console.log('========================================================================');
   });
 }
 
