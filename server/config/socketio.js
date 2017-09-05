@@ -59,6 +59,6 @@ module.exports = function(socketio) {
 
     // Call onConnect.
     onConnect(socket);
-    console.log("conectado al socket como cliente");
+    console.log(socket.address + '[' + socket.connectedAt + ']');
   });
 };
