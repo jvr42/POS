@@ -24,6 +24,7 @@ exports.register = function(socket) {
 function createListener(event, socket) {
   return function(doc) {
     socket.emit(event, doc);
+    console.log('Evento emitido: ' + event + '- ['+ doc +']');
   };
 }
 

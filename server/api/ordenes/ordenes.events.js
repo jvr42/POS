@@ -27,6 +27,7 @@ function emitEvent(event) {
   return function(doc) {
     OrdenesEvents.emit(event + ':' + doc._id, doc);
     OrdenesEvents.emit(event, doc);
+    console.log('Evento emitido: ' + event + '- ['+ doc +']');
   }
 }
 
