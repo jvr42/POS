@@ -17,6 +17,12 @@ exports.register = function(socket) {
 
     OrdenesEvents.on(event, listener);
     socket.on('disconnect', removeListener(event, listener));
+
+    console.log("============================================");
+    console.log("event registered: " + event);
+    console.log("============================================");
+    console.log("listener registered: " + listener);
+    console.log("============================================");
   }
 };
 
