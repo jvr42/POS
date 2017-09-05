@@ -23,7 +23,7 @@ var all = {
   //port: 80,
 
   // Server IP
-  ip: process.env.KANGURU_SERVICE_HOST || '0.0.0.0',
+  ip: process.env.IP || '0.0.0.0',
   //ip: '192.168.0.103',
 
   // Should we populate the DB with sample data?
@@ -41,6 +41,9 @@ var all = {
   mongo: {
     options: {
       useMongoClient: true,
+      socketTimeoutMS: 0,
+      keepAlive: true,
+      reconnectTries: 30,
       db: {
         safe: true
       }
