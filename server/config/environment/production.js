@@ -4,7 +4,7 @@
 // =================================
 module.exports = {
   // Server IP
-  ip:       process.env.KANGURU_SERVICE_HOST ||
+  ip:       process.env.OPENSHIFT_NODEJS_IP ||
             process.env.IP ||
             undefined,
 
