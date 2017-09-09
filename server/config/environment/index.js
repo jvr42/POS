@@ -13,13 +13,13 @@ function requiredProcessEnv(name) {
 // All configurations will extend these options
 // ============================================
 var all = {
-  env: 'production',
+  env: process.env.NODE_ENV,
 
   // Root path of server
   root: path.normalize(__dirname + '/../../..'),
 
   // Server port
-  port: process.env.PORT || 8080,
+  port: process.env.PORT || 9000,
   //port: 80,
 
   // Server IP
@@ -40,10 +40,6 @@ var all = {
   // MongoDB connection options
   mongo: {
     options: {
-      useMongoClient: true,
-      socketTimeoutMS: 0,
-      keepAlive: true,
-      reconnectTries: 30,
       db: {
         safe: true
       }
