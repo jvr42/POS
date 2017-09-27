@@ -19,6 +19,6 @@ module.exports = {
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL +
             process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://userSNA:wxsWGuaDtqvATFfa@mongodb/pos'
+            'mongodb://userQI3:EHDfwTkqjFQWSNQs@mongodb/pos'
   }
 };
